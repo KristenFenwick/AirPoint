@@ -6,7 +6,7 @@ This repository is source only. Build it in Xcode on your own Mac. Do not downlo
 
 ## Build
 
-1. Install the Xcode version that matches your macOS. On macOS 27.3, that is the Xcode 27.3 beta from [Apple Developer downloads](https://developer.apple.com/download/all/). The App Store copy can be too old for a newer macOS.
+1. Install the Xcode that matches the macOS already on the Mac. The App Store copy is the right one for the public macOS. If Xcode says it is not supported, update macOS or download the Xcode release that matches it from [Apple Developer downloads](https://developer.apple.com/download/all/). Do not install a beta just for this app.
 2. Create a macOS App, SwiftUI, Swift. Sign it with your Apple ID as a Personal Team. A paid developer account is not required to run it on your own Mac.
 3. Delete App Sandbox if the target has it. A sandboxed app cannot move the system pointer. Do not add any other capability, and do not add entitlements that start with `com.apple.private`.
 4. In the target Info tab, add **Privacy - Motion Usage Description**. Set it to: `Reads the AirPods head angle to move the pointer.`
