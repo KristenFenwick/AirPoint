@@ -2,7 +2,7 @@
 
 BudPointer turns AirPods head motion into the Mac pointer. It works with one earbud or both. AirPods Pro and AirPods Max are the models with the motion sensors.
 
-Side note: use the green Code button on this page and choose Download ZIP. The project builds in Xcode on a Mac. It does not run on Linux or Windows.
+Side note: use the green Code button on this page and choose Download ZIP. That download works from a Mac, Windows, or Linux. Xcode, which builds the project, installs on a Mac only.
 
 This repository is source only. Build it in Xcode on your own Mac. Do not download a prebuilt app from a stranger, and do not add a built `.app` to this repo. A free Apple ID signature only runs on the Mac that built it.
 
