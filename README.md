@@ -24,7 +24,7 @@ The zip can be downloaded on a Mac, Windows, or Linux. Building and running it n
 
 1. Install the Xcode that matches the macOS already on the Mac. The App Store copy is the right one for the public macOS. If Xcode says it is not supported, update macOS or download the matching Xcode from [Apple Developer downloads](https://developer.apple.com/download/all/). Do not install a beta just for this app.
 2. On this page, choose **Code**, then **Download ZIP**. Or clone the repository.
-3. Create a macOS app in Xcode, SwiftUI, and replace the generated Swift file with `AirPointApp.swift`. Sign it with your Apple ID. A paid developer account is not required to run it on your own Mac.
+3. Create a macOS app in Xcode, SwiftUI, and replace the generated Swift file with `AirPoint.swift`. Sign it with your Apple ID. A paid developer account is not required to run it on your own Mac.
 4. Delete App Sandbox if the target has it. A sandboxed app cannot move the system pointer. Do not add any other capability.
 5. In the target Info tab, add **Privacy - Motion Usage Description**. Set it to: `Reads the AirPods head angle to move the pointer.`
 6. Run it. Allow Motion. Then allow the app under **System Settings, Privacy and Security, Device Control and Data Access**. On macOS 26 and earlier, that list is named Accessibility.
